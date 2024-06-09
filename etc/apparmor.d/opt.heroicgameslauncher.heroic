@@ -4,7 +4,7 @@
 abi <abi/4.0>,
 include <tunables/global>
 
-profile obsidian /opt/HeroicGamesLauncher/heroic flags=(unconfined) {
+profile opt.heroicgameslauncher.heroic /opt/HeroicGamesLauncher/heroic flags=(unconfined) {
   userns,
 
   # Site-specific additions and overrides. See local/README for details.
