@@ -1,0 +1,3 @@
+## Enable AMD64v3 variant in archives
+## This works only in Ubuntu 25.10+
+APT::Architecture-Variants "amd64v3";
